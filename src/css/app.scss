@@ -1,0 +1,43 @@
+// Utils
+@import './utils/normalize';
+
+// App
+@import './app/base';
+@import './app/main';
+
+// Components
+@import './components/loading';
+
+body {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#gl-output{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  // background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+#info {
+  color: floralwhite;
+  position: absolute;
+  top: 10px;
+  width: 20%;
+  text-align: center;
+  z-index: 100;
+  display: block;
+}
